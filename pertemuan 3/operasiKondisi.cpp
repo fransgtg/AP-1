@@ -10,9 +10,9 @@ int main () {
     cout<<"Masukkan nilai : ";
     cin>>nilai;
 
-    // if statement
+    // if statement, operasi if dengan satu kondisi
     // if (nilai <= 65) {
-    //     cout<<"Anda tidak lulus"<<endl;
+    //     cout<<"Anda tidak lulus"<<endl; //Statement akan dijalankan apabila kondisi terpenuhi
     // }
 
     // if-else statement
