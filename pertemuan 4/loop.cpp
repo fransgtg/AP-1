@@ -4,7 +4,7 @@ using namespace  std;
 int main () {
     system("cls");
 
-    // Goto Label
+    // Goto Label, melompati program yg akan dijalankan sesuai dengan perintah goto
     //  Hello World, Fasilkom-TI, Ilmu Komputer, IKLC
     // -> Hello World, IKLC, Ilmu Komputer, Fasilkom-TI
     // a : 
@@ -25,21 +25,21 @@ int main () {
     // genap :
     //     if (i % 2 == 0) {
     //         cout<<i <<endl;
-    //     } i--;
+    //     } i--; //kondisi untuk bilangan genap lalu menampilkannya //decrement jadi dimulai dari angka genap terbesarnya
 
     // if (i >= 2) {
     //     goto genap;
-    // }
+    // } //perulangan dengan menggunakan goto
 
     // Statement while
     // int i = 1;
-    // while (i <= 10) {
+    // while (i <= 10) { // perulangan while dengan memeriksa kondisi terlebih dahulu lalu menjalankan program, apabila kondisi tidak terpenuhi maka program akan terhenti
     //     if (i % 2 == 0) {
     //         cout<<i <<" ";
-    //     } i++;
-    // }
+    //     } i++; //menampilkan bilangan genap dengan perulangan while //increment jadi dimulai dari angka genap terkecil
+    // } 
 
-    // Statement do-while
+    // Statement do-while, sama seperti while. bedanya menjalankan program terlebih dahulu lalu memeriksa kondisi
     // int i = 1;
     // do {
     //     cout<<i <<endl;
@@ -49,7 +49,7 @@ int main () {
     // for (inisialisasi; kondisi; increase)
     // for (int i = 1; i <= 10; i += 2) {
     //     cout<<"Hello World" <<endl;
-    // }
+    // } //Menampilkan Hello World sebanyak 5 kali. Pertama inisialisasi lalu mengecek kondisi (apabila terpenuhi maka dijalankan, kalau tidak akan sebaliknya), increment
 
     // Nested for
     // ***** 5 x 5
