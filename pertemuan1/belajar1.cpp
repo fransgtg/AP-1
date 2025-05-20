@@ -1,18 +1,18 @@
 #include <iostream> // header untuk c++
 #include <conio.h> // header untuk getche() dan getch()
 
-using  namespace std;
+using  namespace std; // agar tidak mengulang standard library cpp
 
-int main () {
-    system("cls");
-    string nama,nim;
-    float ip;
+int main () { //program utama
+    system("cls"); // clearscreen
+    string nama,nim; 
+    float ip; // deklarasi variabel & tipe datanya
     char kom,jk;
     /*ini untuk komentar beberapa baris*/
-    cout<<"Hello World" <<endl;
+    cout<<"Hello World" <<endl; // menampilkan pesan
     cout<<"Masukkan nama : ";
-    getline (cin,nama);// agar karakter spasi bisa terbaca
-    cout<<"Masukkan KOM : "; cin>>kom; 
+    getline (cin,nama);// inputan agar karakter spasi bisa terbaca
+    cout<<"Masukkan KOM : "; cin>>kom; // inputan
     cout<<"Masukkan NIM : "; cin>>nim;
     cout<<"Masukkan IP : "; cin>>ip; 
     cout<<"Masukkan jenis kelamin(L/P) : "; 
