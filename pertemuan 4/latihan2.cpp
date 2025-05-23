@@ -13,7 +13,7 @@ int main() {
         if (kalimat[i] == 'a' || kalimat[i] == 'i' || kalimat[i] == 'u' ||
             kalimat[i] == 'e' || kalimat[i] == 'o') {
             kalimat[i] = toupper(kalimat[i]); 
-        }
+        } //memeriksa huruf vokal pada variabel kalimat, lalu mengubahnya menjadi huruf kapital
     }
     cout << "Kalimat dengan huruf vokal kapital : " << kalimat << endl;
 
