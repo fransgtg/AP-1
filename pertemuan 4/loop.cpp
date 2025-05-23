@@ -51,14 +51,14 @@ int main () {
     //     cout<<"Hello World" <<endl;
     // } //Menampilkan Hello World sebanyak 5 kali. Pertama inisialisasi lalu mengecek kondisi (apabila terpenuhi maka dijalankan, kalau tidak akan sebaliknya), increment
 
-    // Nested for
+    // Nested for, menggunakan for di dalam for
     // ***** 5 x 5
     // for(int i = 1; i <= 5; i++) {
     //     for(int j = 1; j <= 5; j++) {
     //         cout<<"*";
     //     }
     //    cout<<endl;
-    // }
+    // } //Menampilkan "*" sebanyak 5 baris dan 5 kolom
 
     // Segitiga siku-siku
     // for(int i = 1; i <= 5; i++) {
