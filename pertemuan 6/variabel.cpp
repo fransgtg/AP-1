@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; //variabel global bisa dipakai dimana saja
 
 void namaVariabel() {
-    string namaLokal = "Komputer";
+    string namaLokal = "Komputer"; //variabel lokal hanya bisa dipakai pada fungsi namaVariabel
 
      //coba akses
     cout<<namaLokal <<endl;
@@ -14,11 +14,11 @@ void namaVariabel() {
 }
 
 int main() {
-    namaVariabel();
+    namaVariabel(); //pemanggilan fungsi
 
     //coba akses
-    cout<<namaGlobal <<endl;
+    cout<<namaGlobal <<endl; //memanggil variabel global
 
     //coba akses
-    // cout<<namaLokal <<endl;
+    // cout<<namaLokal <<endl; //error : karena hanya bisa dipakai pada fungsi namaVariabel saja
 }
