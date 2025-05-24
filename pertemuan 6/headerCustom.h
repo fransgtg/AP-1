@@ -3,3 +3,4 @@
 #define awal int main() 
 #define itudia sqrt(angka);
 #define akhir }
+//mengcustom beberapa nama fungsi
