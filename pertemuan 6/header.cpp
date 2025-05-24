@@ -1,7 +1,7 @@
 #include <iostream>//bawaan
-#include <cmath>//bawaan
-#include "headerCustom.h" //header yg buat senediri
-u;
+#include <cmath>//bawaan //library untuk fungsi matematika
+#include "headerCustom.h" //header yg dibuat sendiri, dipakai untuk customize beberapa fungsi ataupun variabel
+u; //sudah diganti pada header custom
 
 int jumlah(int a, int b) {
     return a + b;
